@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+* a{
+    cursor: pointer;
+}
+
+* button{
+    cursor: pointer;
+}
+
+
+.container{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header{
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1% 10%;
+    position: sticky;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img{
+    width: 100px;
+}
+
+
+#hiring{
+    width: 200px;
+    height: 50px;
+    background-color: #2B2B2B;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 1% 10%;
+}
+
+
+#GetS{
+    width: 115px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: medium;
+}
+
+#GetS:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* MapDiv */
+
+.mapdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1% 4%;
+}
+
+.leftmap{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 1% 5%;
+    width: 45%;
+}
+
+.leftmapelem{
+    padding: 5% 1%;
+}
+
+
+#maphead{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#getS2{
+    width: 115px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.rightmap{
+    width: 55%;
+}
+
+
+
+/* bankingeasy */
+.mainbank{
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.banktop{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.bankbottom{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bankblock{
+    border: 1px solid purple;
+    width: 15rem;
+    height: 15rem;
+    margin: 5%;
+}
+
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1% 10%;
+}
+
+.footerupper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.uelement{
+    padding: 5% 5%;
+}
+
+.uelement a{
+    text-decoration: none;
+    color: grey;
+    transition-duration: 0.4s;
+}
+
+.uelement a:hover{
+    color: white;
+}
+
+#footerlogo img{
+    width: 100px;
+}
+
+#footersocial{
+    font-size: large;
+}
+
+.footerbelow{
+    color: grey;
+    font-size: smaller;
+    font-weight: 100;
+    padding: 1%;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogo{
+    width: 40px;
+    padding: 5%;
+    margin-right: 10px;
+}
